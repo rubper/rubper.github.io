@@ -1,4 +1,6 @@
 name: Deploy to GitHub Pages
+permissions:
+  contents: write
 
 on:
   push:
@@ -19,7 +21,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: npm run deploy
+        run: npm run ci:deploy
         env:
           CI: true
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
