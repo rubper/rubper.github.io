@@ -85,14 +85,6 @@
               "src/styles.css"
             ]
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "name": "Ruben Perez",
-            "email": "rub.per96@gemail.com",
-            "dir": "dist/portfolio-app/browser"
-          }
         }
       }
     }
