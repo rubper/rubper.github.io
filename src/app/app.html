@@ -1,10 +1,13 @@
-<div class="fixed inset-0 pointer-events-none bg-grid-pattern [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)] z-[-1]"></div>
-<div class="fixed inset-0 pointer-events-none bg-noise opacity-50 z-[-1]"></div>
-
 <div class="relative min-h-screen">
-  <div class="fixed inset-x-0 top-2 w-full flex justify-center items-center gap-2 px-2 z-50 sm:inset-x-auto sm:w-auto sm:top-6 sm:right-6 sm:justify-end sm:gap-3">
-    <app-lang-toggle></app-lang-toggle>
-    <app-theme-toggle></app-theme-toggle>
+  <div class="absolute inset-0 max-w-6xl mx-auto left-0 right-0 pointer-events-none z-[-1]">
+    <div class="absolute inset-0 bg-grid-pattern [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)]"></div>
+    <div class="absolute inset-0 bg-noise opacity-50"></div>
+  </div>
+  <div class="fixed max-w-[100vw] left-0 right-0 top-2 z-50 pointer-events-none">
+    <div class="max-w-[100vw] mx-auto flex justify-center items-center gap-2 px-2 pointer-events-auto sm:w-auto sm:justify-end sm:gap-3">
+      <app-lang-toggle></app-lang-toggle>
+      <app-theme-toggle></app-theme-toggle>
+    </div>
   </div>
   <main class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 space-y-32">
     <app-hero></app-hero>
