@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: ng deploy
+        run: npx ng deploy
         env:
           CI: true
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
