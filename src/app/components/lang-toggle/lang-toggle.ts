@@ -3,11 +3,11 @@ import { LucideAngularModule } from 'lucide-angular';
 import { LanguageService } from '../../services/language';
 
 @Component({
-  selector: 'app-projects',
+  selector: 'app-lang-toggle',
   standalone: true,
   imports: [LucideAngularModule],
-  templateUrl: './projects.html',
+  templateUrl: './lang-toggle.html'
 })
-export class Projects {
-  l = inject(LanguageService);
+export class LangToggle {
+  languageService = inject(LanguageService);
 }

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { LucideAngularModule } from 'lucide-angular';
+import { LanguageService } from '../../services/language';
 
 @Component({
   selector: 'app-contact',
@@ -8,5 +9,5 @@ import { LucideAngularModule } from 'lucide-angular';
   templateUrl: './contact.html',
 })
 export class Contact {
-
+  l = inject(LanguageService);
 }

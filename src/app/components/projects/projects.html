@@ -1,19 +1,20 @@
 
     <section id="projects" class="space-y-16 mt-20">
+      @let t = l.t().projects;
       <div class="space-y-4">
         <h2 class="text-4xl font-extrabold text-zinc-900 dark:text-white flex items-center gap-4">
           <span class="w-10 h-10 rounded-xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 flex items-center justify-center">
              <lucide-icon name="target" [size]="20"></lucide-icon>
           </span>
-          Key Contributions
+          {{ t.title }}
         </h2>
         <p class="text-xl text-zinc-500 font-light max-w-2xl">
-          Architectural decisions and significant project milestones defining my technical journey.
+          {{ t.subtitle }}
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
-        @for (project of projects(); track project.title) {
+        @for (project of t.list; track project.title) {
           <div class="group relative glass-panel rounded-3xl p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-500 flex flex-col justify-between">
             <!-- Glow background injected on hover -->
             <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-fuchsia-500/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>

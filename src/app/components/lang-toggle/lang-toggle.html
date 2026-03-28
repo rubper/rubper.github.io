@@ -1,0 +1,12 @@
+<button
+  (click)="languageService.toggle()"
+  class="relative inline-flex h-10 w-10 items-center justify-center rounded-xl glass-panel text-zinc-600 dark:text-zinc-400 transition-all hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-zinc-900 dark:hover:text-white"
+  [attr.aria-label]="'Switch to ' + (languageService.lang() === 'en' ? 'Spanish' : 'English')"
+>
+  <lucide-icon name="languages" class="w-5 h-5"></lucide-icon>
+
+  <!-- Indicator badge for current language -->
+  <span class="absolute -bottom-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-zinc-900 dark:bg-zinc-100 text-[9px] font-bold text-white dark:text-zinc-900 border border-white dark:border-zinc-900 uppercase">
+    {{ languageService.lang() }}
+  </span>
+</button>
