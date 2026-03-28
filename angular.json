@@ -91,7 +91,6 @@
           "options": {
             "name": "Ruben Perez",
             "email": "rub.per96@gemail.com",
-            "repo": "git@github.com:rubper/rubper.github.io.git",
             "dir": "dist/portfolio-app/browser"
           }
         }
