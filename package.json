@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng deploy --dir=dist/portfolio-app/browser --base-href=https://rubper.github.io"
   },
   "prettier": {
     "printWidth": 100,
