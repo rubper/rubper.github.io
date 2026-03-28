@@ -1,0 +1,51 @@
+
+    <section id="projects" class="space-y-16 mt-20">
+      <div class="space-y-4">
+        <h2 class="text-4xl font-extrabold text-zinc-900 dark:text-white flex items-center gap-4">
+          <span class="w-10 h-10 rounded-xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 flex items-center justify-center">
+             <lucide-icon name="target" [size]="20"></lucide-icon>
+          </span>
+          Key Contributions
+        </h2>
+        <p class="text-xl text-zinc-500 font-light max-w-2xl">
+          Architectural decisions and significant project milestones defining my technical journey.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
+        @for (project of projects(); track project.title) {
+          <div class="group relative glass-panel rounded-3xl p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-500 flex flex-col justify-between">
+            <!-- Glow background injected on hover -->
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-fuchsia-500/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+
+            <div class="relative z-10">
+              <div class="flex items-start justify-between mb-8">
+                <div class="p-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-white rounded-2xl group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 shadow-sm border border-zinc-200 dark:border-zinc-700">
+                  <lucide-icon [name]="project.icon" [size]="24" [strokeWidth]="1.5"></lucide-icon>
+                </div>
+                @if (project.link) {
+                  <a [href]="project.link" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full text-zinc-400 hover:text-zinc-900 hover:bg-zinc-100 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors">
+                    <lucide-icon name="external-link" [size]="18" [strokeWidth]="2"></lucide-icon>
+                  </a>
+                }
+              </div>
+
+              <h3 class="text-2xl font-bold text-zinc-900 dark:text-white mb-2 tracking-tight">{{project.title}}</h3>
+              <p class="text-sm font-mono tracking-wider text-fuchsia-600 dark:text-fuchsia-400 mb-6 uppercase">{{project.context}}</p>
+              <p class="text-zinc-600 dark:text-zinc-400 leading-relaxed font-light mb-8">
+                {{project.description}}
+              </p>
+            </div>
+
+            <div class="relative z-10 flex flex-wrap gap-2 mt-auto">
+              @for (tag of project.tags; track tag) {
+                <span class="px-3 py-1 text-xs font-mono rounded-md bg-zinc-100 dark:bg-zinc-900/80 text-zinc-700 dark:text-zinc-300 border border-zinc-200/80 dark:border-zinc-800">
+                  {{tag}}
+                </span>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    </section>
+  

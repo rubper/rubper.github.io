@@ -1,0 +1,108 @@
+
+    <section class="min-h-[85vh] flex flex-col justify-center relative items-center lg:items-start animate-fade-in-up mt-12 lg:mt-0">
+      <!-- Glow effect behind hero -->
+      <div class="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[24rem] h-[24rem] lg:w-[32rem] lg:h-[32rem] bg-fuchsia-500/20 dark:bg-fuchsia-500/10 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-lighten pointer-events-none animate-glow-pulse"></div>
+      <div class="absolute top-1/3 left-2/3 -translate-x-1/2 -translate-y-1/2 w-[24rem] h-[24rem] lg:w-[32rem] lg:h-[32rem] bg-indigo-500/20 dark:bg-indigo-500/10 blur-[120px] rounded-full mix-blend-multiply dark:mix-blend-lighten pointer-events-none animate-glow-pulse" style="animation-delay: 1s"></div>
+
+      <div class="flex flex-col lg:flex-row items-center justify-between w-full gap-24 lg:gap-20 xl:gap-28 relative z-10 mb-12">
+        <!-- Left: Text Content -->
+        <div class="space-y-8 max-w-2xl lg:w-5/12 flex flex-col justify-center text-center lg:text-left mx-auto lg:mx-0 order-2 lg:order-1 mt-12 lg:mt-0">
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel text-sm font-mono tracking-tight text-zinc-600 dark:text-zinc-300 mx-auto lg:mx-0 w-max bg-zinc-100/50 dark:bg-zinc-900/50">
+            <span class="relative flex font-bold text-emerald-500">
+              <span class="animate-ping absolute inline-flex h-full w-full opacity-75">&lt;/&gt;</span>
+              <span class="relative inline-flex">&lt;/&gt;</span>
+            </span>
+            <span>Available for remote opportunities</span>
+          </div>
+
+          <h1 class="text-6xl sm:text-7xl lg:text-7xl xl:text-8xl font-black tracking-tighter text-zinc-900 dark:text-white leading-[1.05]">
+            Engineering <br class="hidden lg:block"/>
+            <span class="bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-fuchsia-500 drop-shadow-sm">resilient</span> platforms.
+          </h1>
+
+          <div class="space-y-4 text-lg lg:text-xl text-zinc-600 dark:text-zinc-400 font-light leading-relaxed mx-auto lg:mx-0 max-w-xl">
+            <p>
+              I'm <strong class="font-bold text-zinc-900 dark:text-white">Ruben Perez</strong>, a Software Engineer bridging the gap between sophisticated architectures and pristine user experiences.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="#projects" class="inline-flex h-12 lg:h-14 items-center justify-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white px-8 text-sm font-bold text-white dark:text-zinc-900 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-zinc-900/20 dark:hover:shadow-white/20">
+              View My Work
+              <lucide-icon name="arrow-right" class="w-4 h-4"></lucide-icon>
+            </a>
+            <a href="/cv" class="inline-flex h-12 lg:h-14 items-center justify-center gap-2 rounded-2xl glass-panel px-8 text-sm font-semibold text-zinc-900 dark:text-white transition-all hover:-translate-y-1 hover:bg-white/50 dark:hover:bg-zinc-800/80">
+              <lucide-icon name="file-down" class="w-4 h-4"></lucide-icon>
+              Download Résumé
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Visual Graphic (IDE / Editor) -->
+        <div class="lg:w-5/12 flex items-center justify-center lg:justify-end relative w-full perspective-1000 order-1 lg:order-2 px-4 sm:px-12 lg:px-0">
+          <div class="relative w-full max-w-lg aspect-square lg:aspect-auto lg:h-[28rem] animate-float lg:translate-x-8" style="transform-style: preserve-3d; transform: rotateY(-10deg) rotateX(10deg);">
+            <!-- Mock Editor Window -->
+            <div class="absolute inset-0 glass-panel border border-zinc-200/50 dark:border-zinc-700/50 rounded-2xl shadow-2xl overflow-hidden flex flex-col bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl">
+              <!-- Window header -->
+              <div class="h-12 border-b border-zinc-200/50 dark:border-zinc-800/50 flex items-center px-4 gap-2 bg-zinc-100/50 dark:bg-black/40">
+                <div class="w-3.5 h-3.5 rounded-full bg-rose-500 border border-black/10 shadow-[0_0_8px_rgba(244,63,94,0.4)]"></div>
+                <div class="w-3.5 h-3.5 rounded-full bg-amber-500 border border-black/10 shadow-[0_0_8px_rgba(245,158,11,0.4)]"></div>
+                <div class="w-3.5 h-3.5 rounded-full bg-emerald-500 border border-black/10 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
+                <div class="ml-4 font-mono text-xs text-zinc-500 dark:text-zinc-500 flex items-center gap-2">
+                   <lucide-icon name="file-code" class="w-3.5 h-3.5"></lucide-icon>
+                   engineer.config.ts
+                </div>
+              </div>
+
+              <!-- Code Body -->
+              <div class="flex-1 p-6 font-mono text-[13px] sm:text-sm text-zinc-700 dark:text-zinc-300 overflow-hidden relative">
+                <!-- Line Numbers -->
+                <div class="absolute left-0 top-0 bottom-0 w-12 bg-zinc-50/50 dark:bg-white/5 border-r border-zinc-200/50 dark:border-zinc-800/50 flex flex-col items-center py-6 text-zinc-400 dark:text-zinc-600 select-none">
+                  <div class="h-7 leading-7">1</div>
+                  <div class="h-7 leading-7">2</div>
+                  <div class="h-7 leading-7">3</div>
+                  <div class="h-7 leading-7">4</div>
+                  <div class="h-7 leading-7">5</div>
+                  <div class="h-7 leading-7">6</div>
+                  <div class="h-7 leading-7">7</div>
+                  <div class="h-7 leading-7">8</div>
+                  <div class="h-7 leading-7">9</div>
+                  <div class="h-7 leading-7">10</div>
+                </div>
+
+                <div class="pl-10 relative z-10 whitespace-nowrap">
+                  <div class="flex items-center h-7"><div><span class="text-fuchsia-600 dark:text-fuchsia-400 font-semibold">const</span>&nbsp;<span class="text-indigo-600 dark:text-blue-400">profile</span> <span class="text-zinc-500">=</span> <span class="text-cyan-600 dark:text-cyan-400">{{ '{' }}</span></div></div>
+                  <div class="flex items-center h-7 pl-6"><div>name<span class="text-zinc-500">:</span> <span class="text-emerald-600 dark:text-emerald-400">'Ruben Perez'</span><span class="text-zinc-500">,</span></div></div>
+                  <div class="flex items-center h-7 pl-6"><div>role<span class="text-zinc-500">:</span> <span class="text-emerald-600 dark:text-emerald-400">'Software Engineer'</span><span class="text-zinc-500">,</span></div></div>
+                  <div class="flex items-center h-7 pl-6"><div>techStack<span class="text-zinc-500">:</span> <span class="text-fuchsia-600 dark:text-fuchsia-400">[</span></div></div>
+                  <div class="flex items-center h-7 pl-12"><div class="text-emerald-600 dark:text-emerald-400">'Angular', 'TypeScript',</div></div>
+                  <div class="flex items-center h-7 pl-12"><div class="text-emerald-600 dark:text-emerald-400">'NestJS', 'Express',</div></div>
+                  <div class="flex items-center h-7 pl-12"><div class="text-emerald-600 dark:text-emerald-400">'Postgres', 'Tailwind CSS'</div></div>
+                  <div class="flex items-center h-7 pl-6"><div><span class="text-fuchsia-600 dark:text-fuchsia-400">]</span><span class="text-zinc-500">,</span></div></div>
+                  <div class="flex items-center h-7 pl-6">
+                    <div>render:<span class="text-zinc-500"></span>&nbsp;<span class="text-indigo-600 dark:text-blue-400">this</span>.createImpactResult() </div>
+                  </div>
+                  <div class="flex items-center h-7"><div><span class="text-cyan-600 dark:text-cyan-400">{{ '}' }}</span><span class="text-zinc-500">;</span></div></div>
+                </div>
+
+                <!-- Blinking cursor -->
+                <div class="absolute bottom-6 left-16 w-2.5 h-5 bg-fuchsia-500 animate-pulse"></div>
+
+                <!-- Subtle interior glow for depth -->
+                <div class="absolute -bottom-16 -right-16 w-48 h-48 bg-fuchsia-400/10 blur-[50px] rounded-full pointer-events-none"></div>
+              </div>
+            </div>
+
+            <!-- Floating Decorative Elements -->
+            <div class="absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8 w-28 h-28 lg:w-32 lg:h-32 bg-indigo-50/80 dark:bg-indigo-500/10 backdrop-blur-3xl rounded-3xl border border-zinc-200/50 dark:border-white/10 rotate-12 flex items-center justify-center animate-float shadow-xl" style="animation-delay: 1.5s; transform-style: preserve-3d; transform: translateZ(50px);">
+               <lucide-icon name="cpu" class="w-12 h-12 lg:w-16 lg:h-16 text-indigo-500/60 dark:text-indigo-400/50"></lucide-icon>
+               <div class="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-transparent rounded-3xl"></div>
+            </div>
+            <div class="absolute -top-6 -left-6 lg:-top-8 lg:-left-8 w-20 h-20 lg:w-24 lg:h-24 bg-fuchsia-50/80 dark:bg-fuchsia-500/10 backdrop-blur-3xl rounded-full border border-zinc-200/50 dark:border-white/10 -rotate-12 flex items-center justify-center animate-float shadow-xl" style="animation-delay: 2.5s; transform-style: preserve-3d; transform: translateZ(30px);">
+               <lucide-icon name="code" class="w-8 h-8 lg:w-10 lg:h-10 text-fuchsia-500/60 dark:text-fuchsia-400/50"></lucide-icon>
+               <div class="absolute inset-0 bg-gradient-to-br from-fuchsia-500/10 to-transparent rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

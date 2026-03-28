@@ -1,0 +1,36 @@
+
+    <div class="flex items-center gap-1 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-1 rounded-full border border-gray-200 dark:border-gray-800 shadow-sm transition-all">
+      <button 
+        (click)="setTheme('light')" 
+        class="p-2 rounded-full transition-all group relative"
+        [class.bg-indigo-100]="theme.mode() === 'light'"
+        [class.dark:bg-indigo-900]="theme.mode() === 'light'"
+        [class.text-indigo-600]="theme.mode() === 'light'"
+        [class.text-gray-500]="theme.mode() !== 'light'"
+        aria-label="Light mode">
+        <lucide-icon name="sun" [size]="18" [strokeWidth]="2" class="group-hover:scale-110 transition-transform"></lucide-icon>
+      </button>
+
+      <button 
+        (click)="setTheme('system')" 
+        class="p-2 rounded-full transition-all group relative"
+        [class.bg-indigo-100]="theme.mode() === 'system'"
+        [class.dark:bg-indigo-900]="theme.mode() === 'system'"
+        [class.text-indigo-600]="theme.mode() === 'system'"
+        [class.text-gray-500]="theme.mode() !== 'system'"
+        aria-label="System mode">
+        <lucide-icon name="laptop" [size]="18" [strokeWidth]="2" class="group-hover:scale-110 transition-transform"></lucide-icon>
+      </button>
+
+      <button 
+        (click)="setTheme('dark')" 
+        class="p-2 rounded-full transition-all group relative"
+        [class.bg-indigo-100]="theme.mode() === 'dark'"
+        [class.dark:bg-indigo-900]="theme.mode() === 'dark'"
+        [class.text-indigo-600]="theme.mode() === 'dark'"
+        [class.text-gray-500]="theme.mode() !== 'dark'"
+        aria-label="Dark mode">
+        <lucide-icon name="moon" [size]="18" [strokeWidth]="2" class="group-hover:scale-110 transition-transform"></lucide-icon>
+      </button>
+    </div>
+  
