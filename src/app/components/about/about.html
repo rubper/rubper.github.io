@@ -15,7 +15,7 @@
       <p class="text-lg text-zinc-700 dark:text-zinc-300 mb-4 animate-fade-in-up" [innerHTML]="t.intro"></p>
       <ul class="list-none space-y-2 mb-4 animate-fade-in-up">
         @for (point of t.points; track point.text) {
-          <li class="flex items-start gap-2">
+          <li class="flex items-baseline gap-2">
             <lucide-icon [name]="point.icon" class="w-5 h-5 text-primary mt-1" />
             <span>{{ point.text }}</span>
           </li>

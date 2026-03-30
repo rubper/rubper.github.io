@@ -21,7 +21,7 @@ export const en: Dictionary = {
     title: 'Who am I?',
     intro: 'I’m <span class="font-semibold text-primary">Ruben Perez</span>, a passionate Software Engineer who thrives on building elegant, robust, and scalable solutions. My approach blends technical excellence with a deep commitment to collaboration, transparency, and continuous learning.',
     points: [
-      { icon: 'linkedin', text: 'Connect with me on LinkedIn.' },
+      { icon: 'linkedin', text: 'Available on LinkedIn.' },
       { icon: 'zap', text: 'Driven by curiosity and a love for clean, maintainable code.' },
       { icon: 'user', text: 'Team player who elevates those around me, mentoring, sharing, and always learning.' },
       { icon: 'bolt', text: 'Proven track record of delivering impactful features, fast and reliably.' },
