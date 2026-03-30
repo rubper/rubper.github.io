@@ -12,6 +12,7 @@ export interface Dictionary {
     points: { icon: string; text: string }[];
     why: string;
     icon: string;
+    img: string;
   };
 }
 
@@ -27,7 +28,8 @@ export const en: Dictionary = {
       { icon: 'heart', text: 'Genuine care for user experience, accessibility, and product quality.' }
     ],
     why: '<span class="font-semibold text-primary">Why me?</span> Recruiters and teams choose me because I don’t just write code—I solve problems, foster positive culture, and help teams ship products that matter. If you want someone who brings both technical skill and human touch, let’s connect.',
-    icon: 'user'
+    icon: 'user',
+    img: '/profile.jpg'
   },
   hero: {
     badge: 'Available for remote opportunities',

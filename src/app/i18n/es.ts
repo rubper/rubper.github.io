@@ -12,7 +12,8 @@ export const es: Translations = {
       { icon: 'heart', text: 'Genuina preocupación por la experiencia de usuario, accesibilidad y calidad del producto.' }
     ],
     why: '<span class="font-semibold text-primary">¿Por qué yo?</span> Los reclutadores y equipos me eligen porque no solo escribo código—resuelvo problemas, promuevo una cultura positiva y ayudo a los equipos a lanzar productos que importan. Si buscas a alguien con habilidad técnica y un toque humano, conectemos.',
-    icon: 'user'
+    icon: 'user',
+    img: '/profile.jpg'
   },
   hero: {
     badge: 'Disponible para trabajar en remoto',
