@@ -51,12 +51,12 @@ export const en: Dictionary = {
         location: 'San Salvador, El Salvador',
         period: 'Nov 2021 — Present',
         contributions: [
-          'Maintained and developed reporting and analytic software for US companies using Angular 18, NestJS & Postgres, and PowerBI embedded as backing reporting engine.',
-          'Designed and prototyped web application UI and promoted the usage of Figma for UI design in the company’s products.',
-          'Implemented C4 models to improve software architecture design in the development of new features for reporting software.',
-          'Trained and mentored new hires in the frontend development area, ensuring a smooth onboarding process and rapid integration into company operations.',
-          'Improved unit & e2e testing processes in the development workflow of web applications, using Jasmine, Jest & Playwright.',
-          'Contributed to the development of the company’s landing website using Qwik Framework, Strapi CMS & Tailwind CSS.'
+          'Built advanced analytics/reporting for US clients (Angular, NestJS, PowerBI).',
+          'Led Figma-driven UI/UX and design system adoption.',
+          'Elevated architecture with expert C4 modeling.',
+          'Mentored and onboarded engineers to top performance.',
+          'Boosted release quality with advanced test automation. (Playwright)',
+          'Launched high-performance landing sites (Angular/Qwik, Strapi, Tailwind).'
         ],
         techs: [
           { name: 'Angular 18', url: 'https://angular.dev' },
@@ -77,8 +77,8 @@ export const en: Dictionary = {
         location: 'Coruña, Spain',
         period: '2020 — Nov 2021',
         contributions: [
-          'Developed startup software that allows restaurants to easily publish and manage their menus online using Angular 11.',
-          'Implemented responsive designs and custom UI elements used in the development of web applications.'
+          'Built SaaS for restaurants to easily manage menus (Angular 11).',
+          'Delivered responsive UI and custom components for seamless user experience.'
         ],
         techs: [
           { name: 'Angular 11', url: 'https://v11.angular.io' },

@@ -5,7 +5,7 @@ export const es: Translations = {
     title: '¿Quién soy?',
     intro: 'Soy <span class="font-semibold text-primary">Ruben Perez</span>, un Ingeniero de Software apasionado por crear soluciones elegantes, robustas y escalables. Mi enfoque combina excelencia técnica con un fuerte compromiso con la colaboración, la transparencia y el aprendizaje continuo.',
     points: [
-      { icon: 'linkedin', text: 'Conéctate conmigo en LinkedIn.' },
+      { icon: 'linkedin', text: 'Puedes contactarte conmigo en LinkedIn.' },
       { icon: 'zap', text: 'Impulsado por la curiosidad y el amor por el código limpio y mantenible.' },
       { icon: 'user', text: 'Trabajo en equipo, elevo a quienes me rodean. Mentorizando, compartiendo y siempre aprendiendo.' },
       { icon: 'bolt', text: 'Historial comprobado de entregar funcionalidades impactantes, rápido y de forma confiable.' },
@@ -35,12 +35,12 @@ export const es: Translations = {
         location: 'San Salvador, El Salvador',
         period: 'Nov 2021 — Presente',
         contributions: [
-          'Mantenimiento y desarrollo de software de reportes y análisis para empresas de EE.UU. utilizando Angular 18, NestJS & Postgres, y PowerBI integrado como motor de reportes.',
-          'Diseño y prototipado de UI de aplicaciones web, promoviendo el uso de Figma para el diseño de interfaces en los productos de la empresa.',
-          'Implementación de modelos C4 para mejorar el diseño de arquitecturas de software en el desarrollo de nuevas características del sistema.',
-          'Capacitación y mentoría de nuevos empleados en el área de desarrollo frontend, garantizando una inducción fluida y rápida integración en las operaciones.',
-          'Mejora de los procesos de pruebas unitarias y e2e en el flujo de desarrollo de aplicaciones web, utilizando Jasmine, Jest & Playwright.',
-          'Contribución en el desarrollo de la página de aterrizaje de la empresa utilizando Qwik Framework, Strapi CMS & Tailwind CSS.'
+          'Lideré plataformas de reportes/analítica para EE.UU. (Angular, NestJS, PowerBI).',
+          'Impulsé UI/UX y sistemas de diseño con Figma.',
+          'Elevé la arquitectura con modelos C4 y buenas prácticas.',
+          'Mentoricé e integré ingenieros para alto rendimiento.',
+          'Mejoré la calidad con automatización avanzada de pruebas.',
+          'Pionero en landing sites de alto rendimiento (Qwik, Strapi, Tailwind).'
         ],
         techs: [
           { name: 'Angular 18', url: 'https://angular.dev' },
@@ -61,8 +61,8 @@ export const es: Translations = {
         location: 'Coruña, España',
         period: '2020 — Nov 2021',
         contributions: [
-          'Desarrollo de software para una startup que permite a los restaurantes publicar y gestionar fácilmente sus menús en línea utilizando Angular 11.',
-          'Implementación de diseños responsivos y elementos de UI personalizados utilizados en el desarrollo de las aplicaciones web.'
+          'Construí SaaS para restaurantes: gestión de menús fácil (Angular 11).',
+          'Entregué UI responsiva y componentes personalizados para experiencia superior.'
         ],
         techs: [
           { name: 'Angular 11', url: 'https://v11.angular.io' },
