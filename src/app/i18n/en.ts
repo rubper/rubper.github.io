@@ -11,6 +11,7 @@ export interface Dictionary {
     intro: string;
     points: { icon: string; text: string }[];
     why: string;
+    icon: string;
   };
 }
 
@@ -19,12 +20,14 @@ export const en: Dictionary = {
     title: 'Who am I?',
     intro: 'I’m <span class="font-semibold text-primary">Ruben Perez</span>, a passionate Software Engineer who thrives on building elegant, robust, and scalable solutions. My approach blends technical excellence with a deep commitment to collaboration, transparency, and continuous learning.',
     points: [
+      { icon: 'linkedin', text: 'Connect with me on LinkedIn.' },
       { icon: 'zap', text: 'Driven by curiosity and a love for clean, maintainable code.' },
       { icon: 'user', text: 'Team player who elevates those around me, mentoring, sharing, and always learning.' },
-      { icon: 'zap', text: 'Proven track record of delivering impactful features, fast and reliably.' },
+      { icon: 'bolt', text: 'Proven track record of delivering impactful features, fast and reliably.' },
       { icon: 'heart', text: 'Genuine care for user experience, accessibility, and product quality.' }
     ],
-    why: '<span class="font-semibold text-primary">Why me?</span> Recruiters and teams choose me because I don’t just write code—I solve problems, foster positive culture, and help teams ship products that matter. If you want someone who brings both technical skill and human touch, let’s connect.'
+    why: '<span class="font-semibold text-primary">Why me?</span> Recruiters and teams choose me because I don’t just write code—I solve problems, foster positive culture, and help teams ship products that matter. If you want someone who brings both technical skill and human touch, let’s connect.',
+    icon: 'user'
   },
   hero: {
     badge: 'Available for remote opportunities',

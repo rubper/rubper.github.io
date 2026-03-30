@@ -5,12 +5,14 @@ export const es: Translations = {
     title: '¿Quién soy?',
     intro: 'Soy <span class="font-semibold text-primary">Ruben Perez</span>, un Ingeniero de Software apasionado por crear soluciones elegantes, robustas y escalables. Mi enfoque combina excelencia técnica con un fuerte compromiso con la colaboración, la transparencia y el aprendizaje continuo.',
     points: [
+      { icon: 'linkedin', text: 'Conéctate conmigo en LinkedIn.' },
       { icon: 'zap', text: 'Impulsado por la curiosidad y el amor por el código limpio y mantenible.' },
       { icon: 'user', text: 'Trabajo en equipo, elevo a quienes me rodean. Mentorizando, compartiendo y siempre aprendiendo.' },
-      { icon: 'zap', text: 'Historial comprobado de entregar funcionalidades impactantes, rápido y de forma confiable.' },
+      { icon: 'bolt', text: 'Historial comprobado de entregar funcionalidades impactantes, rápido y de forma confiable.' },
       { icon: 'heart', text: 'Genuina preocupación por la experiencia de usuario, accesibilidad y calidad del producto.' }
     ],
-    why: '<span class="font-semibold text-primary">¿Por qué yo?</span> Los reclutadores y equipos me eligen porque no solo escribo código—resuelvo problemas, promuevo una cultura positiva y ayudo a los equipos a lanzar productos que importan. Si buscas a alguien con habilidad técnica y un toque humano, conectemos.'
+    why: '<span class="font-semibold text-primary">¿Por qué yo?</span> Los reclutadores y equipos me eligen porque no solo escribo código—resuelvo problemas, promuevo una cultura positiva y ayudo a los equipos a lanzar productos que importan. Si buscas a alguien con habilidad técnica y un toque humano, conectemos.',
+    icon: 'user'
   },
   hero: {
     badge: 'Disponible para trabajar en remoto',
